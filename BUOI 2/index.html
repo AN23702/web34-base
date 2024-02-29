@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUOI 2</title>
+</head>
+
+<body>
+    <!-- Table: bảng trong html
+    row hàng <tr></tr> hàng bọc cột
+    coloumn cột <td></td> -->
+    <h2>Bảng quản lý hóa đơn</h2>
+    <table>
+        <thead>
+            <!-- phần đầu bảng -->
+            <tr>
+                <th>Tên</th>
+                <th>Số lượng</th>
+                <th>Giá tiền</th>
+            </tr>
+        </thead>
+       
+        <tbody>
+            <!-- phần thân bảng -->
+            <tr>
+                <td>Thuế thu nhập cá nhân</td>
+                <td>01</td>
+                <td>100.000 Vnd</td>
+            </tr>
+
+            <tr>
+                <td>Tiền điện/Nước</td>
+                <td>01</td>
+                <td>200.000 Vnd</td>
+            </tr>
+
+            <tr>
+                <td>Tiền ăn</td>
+                <td>01</td>
+                <td>2.000.000 Vnd</td>
+            </tr>
+
+        </tbody>    
+    </table>
+
+    <!-- Thẻ form: thu thập dữ liệu người dùng và gửi lên sever -->
+    <h2>Thu thập thông tin người dùng</h2>
+    <form>
+        <label>Họ và tên</label>
+        <input type="text" placeholder="Họ và tên">
+
+        <br><br>
+        <label>Email</label>
+        <input type="email" placeholder="Email">
+
+        <br><br>
+        <label>Sản phẩm quan tâm</label>
+        <select>
+            <option>Apple</option>
+            <option>Google</option>
+            <option>Samsung</option>
+        </select>
+
+        <br><br>
+        <label>Mô tả</label>
+        <textarea rows="10" cols="30"></textarea>
+
+        <br><br>
+        <label>Mật khẩu</label>
+        <input type="password" placeholder="Mật khẩu">
+
+        <br><br>
+        <button type="submit">Gửi</button>
+    </form>
+
+    <!-- Thẻ block -->
+    <!-- Thẻ inline -->
+
+    <!-- Thẻ div: 1 thẻ block
+         Thẻ span: 1 thẻ inline
+        2 thẻ trên thường kết hợp với css để style nội dung -->
+
+
+</body>
+
+</html>
