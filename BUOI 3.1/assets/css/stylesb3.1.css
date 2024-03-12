@@ -1,0 +1,71 @@
+/* Reset browser */
+* {
+    padding: 0; /*Khoang cac giua cac phan tu*/
+    margin: 0; /*Khoang cac giua cac phan tu*/
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #E872D0;
+    font-style: italic;
+}
+
+/* Dat ten theo class
++hay duoc dung trong du an thuc te
++Trong 1 trang co nhieu class giong nhau
++De style thi dung dau "." */
+.title-1{
+    color: blue;
+}
+
+.title-2{
+    color: green;
+}
+
+/* Dat ten theo id
++Trong 1 trang Id la duy nhat
++Dung dau "#" */
+#title-3{
+    color: violet;
+}
+
+#title-4{
+    color: orange;
+}
+
+/* Cha con */
+p{
+    color: pink;
+}
+
+div p{
+    color: grey;
+}
+
+/* Bo chon voi the dieu huong */
+a:link{
+    color: blue; /* Chua bam vao link se hien mau xanh*/
+}
+
+a:visited{
+    color: red; /*Bam vao link roi se hien mau do*/
+}
+
+/* Margin-Padding */
+.box-1{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin-top: 100px;
+    padding-left: 50px;
+    border: 5px dotted red;
+}
+
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    /* border-radius: 7px; */
+    border-radius: 50%;
+    display: none;
+}

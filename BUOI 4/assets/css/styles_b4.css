@@ -1,0 +1,73 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+/* Phan tu cha */
+.container{
+width: 100%;
+height: 800px;
+background-color: pink;
+display: flex;
+
+/* Xac dinh huong cua phan tu con */
+/* flex-direction: row-reverse; */
+
+/* xac dinh phan tu con co xuong dong hay khong khi man hinh thay doi kich thuoc */
+/* flex-wrap: wrap; */
+
+/* Can chinh phan tu trong 1 hang- quan trong vi dung thuc te nhieu */
+justify-content: center;
+/* justify-content: space-between; */
+
+/* Can chinh vi tri phan tu theo hang doc- quan trong */
+/* align-items: center; */
+/* align-items: flex-start; */
+align-items: baseline;
+
+/* Can chinh hang cua Phan tu cha */
+/* align-content: stretch; */
+}
+
+/* Phan tu con */
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+
+    /* order: 2; */
+}
+
+.box-2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+
+    /* order: 1; */
+}
+
+.box-3{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+
+    /* order: 4; */
+    /* flex-grow: 1; */
+}
+
+.box-4{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+}
